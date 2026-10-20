@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 기본 아이콘 배경 (art/make_default_icon.ps1 과 같은 색). debug 빌드는 app/src/debug/res 의 개인 아이콘이 있으면 그것을 쓴다. -->
+    <color name="ic_launcher_background">#185FA5</color>
+</resources>

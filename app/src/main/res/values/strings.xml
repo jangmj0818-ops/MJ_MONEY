@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MJ money</string>
+    <string name="notification_listener_label">MJ money 결제 알림 인식</string>
+</resources>

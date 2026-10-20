@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 전경 이미지는 art/make_app_icon.ps1 로 만든다. 컬러를 유지하려고 monochrome(테마 아이콘) 레이어는 넣지 않는다. -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/ic_launcher_background" />
+    <foreground android:drawable="@mipmap/ic_launcher_foreground" />
+</adaptive-icon>

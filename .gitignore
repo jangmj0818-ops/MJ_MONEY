@@ -1,0 +1,22 @@
+*.iml
+.gradle
+.kotlin
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# 개인용 앱 아이콘 (저장소에 올리지 않는 이미지). debug 빌드에서만 기본 아이콘을 덮어쓴다.
+/art/app_icon_source.png
+/art/app_icon_preview.png
+/app/src/debug/res/mipmap-*/
+/app/src/debug/res/values/ic_launcher_background.xml

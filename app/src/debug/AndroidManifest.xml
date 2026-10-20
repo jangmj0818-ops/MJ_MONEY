@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <!-- 개발용 (debug 빌드에만 포함): adb로 데이터를 한 번에 넣는다.
+             DUMP 권한은 adb(shell)만 가지고 있어서 다른 앱은 이 수신기를 부를 수 없다. -->
+        <receiver
+            android:name=".debug.DebugImportReceiver"
+            android:exported="true"
+            android:permission="android.permission.DUMP" />
+    </application>
+
+</manifest>
